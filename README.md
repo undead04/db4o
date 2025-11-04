@@ -13,15 +13,12 @@ Lưu ý quan trọng: gói/phiên bản `Db4objects.Db4o` đã bị ngừng phá
 
 Các bước thiết lập môi trường (khi DLL không có trên NuGet công khai):
 
-1. Nếu dự án đã kèm DLL trong thư mục `lib/`
+1. Tải thư viện `Db4objects.Db4o.dll`
 
-   - Kiểm tra xem `lib/` trong repo đã có `Db4objects.Db4o.dll`. Nếu có, bạn có thể tham chiếu trực tiếp tới file đó.
-
-2. Nếu bạn cần lấy DLL từ bản lưu trữ hoặc kho lưu trữ nội bộ
-
-   - Tìm bản sao `Db4objects.Db4o.dll` từ nguồn lưu trữ nội bộ, backup, hoặc từ archive của dự án trước đó.
-
-3. Thêm DLL vào dự án
+   - Tải thư viện tại:  
+   👉 https://sourceforge.net/projects/db4o/files/db4o/ (chọn `db4o-8.1-net40.zip`)
+   - Giải nén và copy file `Db4objects.Db4o.dll` vào thư mục `lib/` của dự án.
+2. Thêm DLL vào dự án
    - Cách A — Thêm bằng Visual Studio: chuột phải vào References -> Add Reference -> Browse -> chọn `lib\Db4objects.Db4o.dll`.
    - Cách B — Thêm trực tiếp vào `csproj` (ví dụ):
 
@@ -92,20 +89,6 @@ Sau khi dự án được tham chiếu đúng DLL, ứng dụng sẽ mở hoặc
 
 - db4o quản lý identity nội bộ cho các đối tượng đã được lưu. Nếu cần khóa rõ ràng, bổ sung trường mã (ID) trong lớp (ví dụ `public string MaSinhVien { get; set; }`) và xử lý unique trong logic ứng dụng.
 
-5. Indexing và tối ưu truy vấn
-
-- Đánh index các trường thường xuyên truy vấn (mã, tên, email) để tăng tốc. db4o hỗ trợ cấu hình index tại thời điểm cấu hình container.
-- Ví dụ (ý tưởng cấu hình):
-
-```csharp
-// Pseudocode minh họa cấu hình index trước khi mở DB
-// var config = Db4oEmbedded.NewConfiguration();
-// config.Common.AddIndex(typeof(SinhVien), "MaSinhVien");
-// var db = Db4oEmbedded.OpenFile(config, "project.db4o");
-```
-
-(Lưu ý: API cụ thể tùy phiên bản package; tham khảo tài liệu package `Db4objects.Db4o` nếu cần tùy chỉnh sâu hơn.)
-
 6. Truy vấn
 
 - db4o hỗ trợ nhiều cách truy vấn: Query-By-Example (QBE), S.O.D.A, Native Queries hoặc LINQ (tuỳ phiên bản). Chọn kiểu truy vấn phù hợp cho độ phức tạp của yêu cầu.
@@ -151,19 +134,6 @@ using (IObjectContainer db = Db4oEmbedded.OpenFile("project.db4o"))
     }
 }
 ```
-
-## Mẹo thực hành tốt
-
-- Đặt tên trường ID rõ ràng (MaXxx) để dễ truy vấn và đảm bảo unique ở tầng ứng dụng.
-- Đánh index những trường tra cứu thường xuyên (mã, email, số hiệu).
-- Tránh lưu quá nhiều object lớn trong một lần store nếu có thể tách nhỏ để tránh spike bộ nhớ.
-- Viết unit test cho migration khi thay đổi model.
-
-## Bước tiếp theo & nâng cao
-
-- Thêm script migration nếu bạn định thay đổi nhiều class.
-- Thử nghiệm các kiểu truy vấn khác nhau (Native Query, SODA) để chọn cách tối ưu.
-- Nếu cần mở rộng cho môi trường đa user/đồng thời, cân nhắc chiến lược lock/transaction và backup thường xuyên file `project.db4o`.
 
 ## Tài liệu tham khảo
 
