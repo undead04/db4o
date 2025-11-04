@@ -1,0 +1,51 @@
+D:\Hệ thống thông tin\DemoDb4o\obj\Debug\net9.0\DemoDb4o.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hệ thống thông tin\DemoDb4o\obj\Debug\net9.0\DemoDb4o.AssemblyInfoInputs.cache
+D:\Hệ thống thông tin\DemoDb4o\obj\Debug\net9.0\DemoDb4o.AssemblyInfo.cs
+D:\Hệ thống thông tin\DemoDb4o\obj\Debug\net9.0\DemoDb4o.csproj.CoreCompileInputs.cache
+D:\Hệ thống thông tin\DemoDb4o\obj\Debug\net9.0\DemoDb4o.csproj.AssemblyReference.cache
+D:\Hệ thống thông tin\DemoDb4o\bin\Debug\net9.0\DemoDb4o.exe
+D:\Hệ thống thông tin\DemoDb4o\bin\Debug\net9.0\DemoDb4o.deps.json
+D:\Hệ thống thông tin\DemoDb4o\bin\Debug\net9.0\DemoDb4o.runtimeconfig.json
+D:\Hệ thống thông tin\DemoDb4o\bin\Debug\net9.0\DemoDb4o.dll
+D:\Hệ thống thông tin\DemoDb4o\bin\Debug\net9.0\DemoDb4o.pdb
+D:\Hệ thống thông tin\DemoDb4o\bin\Debug\net9.0\Db4objects.Db4o.dll
+D:\Hệ thống thông tin\DemoDb4o\obj\Debug\net9.0\DemoDb4o.csproj.Up2Date
+D:\Hệ thống thông tin\DemoDb4o\obj\Debug\net9.0\DemoDb4o.dll
+D:\Hệ thống thông tin\DemoDb4o\obj\Debug\net9.0\refint\DemoDb4o.dll
+D:\Hệ thống thông tin\DemoDb4o\obj\Debug\net9.0\DemoDb4o.pdb
+D:\Hệ thống thông tin\DemoDb4o\obj\Debug\net9.0\DemoDb4o.genruntimeconfig.cache
+D:\Hệ thống thông tin\DemoDb4o\obj\Debug\net9.0\ref\DemoDb4o.dll
+D:\Hệ thống thông tin\Lab 5\MediaDB\bin\Debug\net9.0\DemoDb4o.exe
+D:\Hệ thống thông tin\Lab 5\MediaDB\bin\Debug\net9.0\DemoDb4o.deps.json
+D:\Hệ thống thông tin\Lab 5\MediaDB\bin\Debug\net9.0\DemoDb4o.runtimeconfig.json
+D:\Hệ thống thông tin\Lab 5\MediaDB\bin\Debug\net9.0\DemoDb4o.dll
+D:\Hệ thống thông tin\Lab 5\MediaDB\bin\Debug\net9.0\DemoDb4o.pdb
+D:\Hệ thống thông tin\Lab 5\MediaDB\bin\Debug\net9.0\Db4objects.Db4o.dll
+D:\Hệ thống thông tin\Lab 5\MediaDB\obj\Debug\net9.0\DemoDb4o.csproj.AssemblyReference.cache
+D:\Hệ thống thông tin\Lab 5\MediaDB\obj\Debug\net9.0\DemoDb4o.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hệ thống thông tin\Lab 5\MediaDB\obj\Debug\net9.0\DemoDb4o.AssemblyInfoInputs.cache
+D:\Hệ thống thông tin\Lab 5\MediaDB\obj\Debug\net9.0\DemoDb4o.AssemblyInfo.cs
+D:\Hệ thống thông tin\Lab 5\MediaDB\obj\Debug\net9.0\DemoDb4o.csproj.CoreCompileInputs.cache
+D:\Hệ thống thông tin\Lab 5\MediaDB\obj\Debug\net9.0\DemoDb4o.csproj.Up2Date
+D:\Hệ thống thông tin\Lab 5\MediaDB\obj\Debug\net9.0\DemoDb4o.dll
+D:\Hệ thống thông tin\Lab 5\MediaDB\obj\Debug\net9.0\refint\DemoDb4o.dll
+D:\Hệ thống thông tin\Lab 5\MediaDB\obj\Debug\net9.0\DemoDb4o.pdb
+D:\Hệ thống thông tin\Lab 5\MediaDB\obj\Debug\net9.0\DemoDb4o.genruntimeconfig.cache
+D:\Hệ thống thông tin\Lab 5\MediaDB\obj\Debug\net9.0\ref\DemoDb4o.dll
+D:\Hệ thống thông tin\Lab 5\SocialDB\bin\Debug\net9.0\DemoDb4o.exe
+D:\Hệ thống thông tin\Lab 5\SocialDB\bin\Debug\net9.0\DemoDb4o.deps.json
+D:\Hệ thống thông tin\Lab 5\SocialDB\bin\Debug\net9.0\DemoDb4o.runtimeconfig.json
+D:\Hệ thống thông tin\Lab 5\SocialDB\bin\Debug\net9.0\DemoDb4o.dll
+D:\Hệ thống thông tin\Lab 5\SocialDB\bin\Debug\net9.0\DemoDb4o.pdb
+D:\Hệ thống thông tin\Lab 5\SocialDB\bin\Debug\net9.0\Db4objects.Db4o.dll
+D:\Hệ thống thông tin\Lab 5\SocialDB\obj\Debug\net9.0\DemoDb4o.csproj.AssemblyReference.cache
+D:\Hệ thống thông tin\Lab 5\SocialDB\obj\Debug\net9.0\DemoDb4o.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hệ thống thông tin\Lab 5\SocialDB\obj\Debug\net9.0\DemoDb4o.AssemblyInfoInputs.cache
+D:\Hệ thống thông tin\Lab 5\SocialDB\obj\Debug\net9.0\DemoDb4o.AssemblyInfo.cs
+D:\Hệ thống thông tin\Lab 5\SocialDB\obj\Debug\net9.0\DemoDb4o.csproj.CoreCompileInputs.cache
+D:\Hệ thống thông tin\Lab 5\SocialDB\obj\Debug\net9.0\DemoDb4o.csproj.Up2Date
+D:\Hệ thống thông tin\Lab 5\SocialDB\obj\Debug\net9.0\DemoDb4o.dll
+D:\Hệ thống thông tin\Lab 5\SocialDB\obj\Debug\net9.0\refint\DemoDb4o.dll
+D:\Hệ thống thông tin\Lab 5\SocialDB\obj\Debug\net9.0\DemoDb4o.pdb
+D:\Hệ thống thông tin\Lab 5\SocialDB\obj\Debug\net9.0\DemoDb4o.genruntimeconfig.cache
+D:\Hệ thống thông tin\Lab 5\SocialDB\obj\Debug\net9.0\ref\DemoDb4o.dll

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "DemoDb4o/1.0.0": {
+        "dependencies": {
+          "Db4objects.Db4o": "7.2.44.10827"
+        },
+        "runtime": {
+          "DemoDb4o.dll": {}
+        }
+      },
+      "Db4objects.Db4o/7.2.44.10827": {
+        "runtime": {
+          "Db4objects.Db4o.dll": {
+            "assemblyVersion": "7.2.44.10827",
+            "fileVersion": "7.2.44.10827"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DemoDb4o/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Db4objects.Db4o/7.2.44.10827": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
