@@ -6,6 +6,8 @@ Tài liệu này mô tả cách thiết lập môi trường sử dụng db4o ch
 
 - Giúp bạn nhanh chóng thiết lập môi trường để chạy dự án có `db4o`.
 - Giải thích cách tổ chức dữ liệu theo hướng đối tượng (Object Database) dựa trên các lớp trong `models/`.
+## Yêu cầu
+- .NET SDK (phiên bản tương thích với target framework của dự án, ví dụ .NET 9 SDK) cài sẵn.
 
 ## Thiết lập môi trường — lưu ý về db4objects.Db4o (DLL cần thiết)
 
